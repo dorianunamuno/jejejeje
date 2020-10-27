@@ -1,0 +1,93 @@
+h1:hover{background:blue;}
+h1{
+  background:black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+p{
+  background:green;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+marquee{
+  background:red;
+  color: white;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+/*ESTILOS GENERALES*/
+
+nav ul{
+   list-style: none;
+   padding: 0;
+}
+nav li {
+   line-height: 3rem;
+   position: relative;
+   font-size: 20px;
+
+}
+.menu ul{
+   position: absolute;
+
+}
+nav a{
+   color: white;
+   display: block;
+   padding: 0 2.5em;
+   text-decoration: none;
+   transition: .10s;
+}
+
+}
+footer{
+   background-color:blue;
+   color: white;
+    font-size: 20px;
+   text-align: center;
+   font-family:fantasy;
+}
+figcaption{
+   color: red;
+   font-family: cursive;
+   font-size: 25px;
+}
+/*PRIMER NIVEL*/
+.menu{
+   background: green;
+   display: table;
+   width: 100%;
+}
+.menu > li{
+float: left;
+}
+/*SEGUNDO NIVEL*/
+nav li li {
+   background: blue;
+   max-height: 0;
+   transition: all .5s;
+   overflow: hidden;
+   width: 130%;
+}
+nav li:hover >ul > li{
+   max-height: 500%;
+   overflow: visible;
+}
+.menu li > ul{
+top: 100%;
+}
+
+nav{
+  font-family: cursive;
+  color:blue;
+  text-align:center;
+  font-size: 25PX;
+}
+
+
+
